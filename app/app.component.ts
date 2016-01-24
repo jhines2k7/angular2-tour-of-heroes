@@ -90,6 +90,7 @@ var HEROES: Hero[] = [
 export class AppComponent {
   public title = 'Tour of Heroes';
   public heroes = HEROES;
+  public selectedHero: Hero;
   public hero: Hero = {
     id: 1,
     name: 'Windstrom'
